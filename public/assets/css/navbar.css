@@ -1,0 +1,33 @@
+.navbar.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: #fff;
+    padding-top: 7px !important;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nav-link p {
+    font-size: 0.8rem;
+}
+
+.nav-link i {
+    font-size: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-link.btn {
+    padding: 8px 22px;
+}

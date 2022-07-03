@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+/* First page */
+.first-page {
+    /* width: 100vw; */
+    height: 600px;
+    background-image: linear-gradient(
+            rgba(46, 43, 43, 0.404),
+            rgba(37, 35, 35, 0.404)
+        ),
+        url("../img/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-page header h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .first-page header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .first-page header h1 {
+        font-size: 3.5rem;
+    }
+}
+/* End of First page */
+
+/* Second page */
+.second-page {
+    font-family: "Poppins", sans-serif;
+}
+
+.second-page ul {
+    padding-left: 15px;
+}
